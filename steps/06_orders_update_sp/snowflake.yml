@@ -5,7 +5,7 @@ snowpark:
   src: "orders_update_sp/"
   procedures:
     - name: "orders_update_sp"
-      database: "hol_db"
+      database: "AMEHROTRA"
       schema: "harmonized"
       handler: "procedure.main"
       runtime: "3.10"
